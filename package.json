@@ -1,0 +1,22 @@
+{
+  "name": "test-impact-analysis-example",
+  "version": "1.0.0",
+  "scripts": {
+    "tia:init": "node scripts/init-tia",
+    "test:tia": "node scripts/run-tia",
+    "test:all": "jest"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "coverageDirectory": "coverage",
+    "coverageReporters": [
+      "json"
+    ]
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "jest": "^27.3.1"
+  }
+}
